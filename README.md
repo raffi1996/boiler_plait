@@ -13,7 +13,7 @@ The Boilerplate contains the minimal implementation required to create a new lib
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/NarekManukyan/flutter_boilerplate
+https://github.com/raffi1996/flutter_boilerplate
 ```
 
 **Step 2:**
