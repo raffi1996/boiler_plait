@@ -28,16 +28,18 @@ dependencies:
 
   # A powerful Http client for Dart, which supports Interceptors,
   # Global configuration, FormData, Request Cancellation, File downloading, Timeout etc.
-  dio: ^4.0.4
+  dio: ^5.0.0
 
   # NoSQL persistent embedded file system document-based database
-  # for Dart VM and Flutter with encryption support.
-  sembast: ^3.1.2
+  hive: ^2.2.3
+
+  # Extension for Hive. Makes it easier to use Hive in Flutter apps.
+  hive_flutter: ^1.1.0
 
   # This plugin allows Flutter apps to discover network
   # connectivity and configure themselves accordingly.
   # It can distinguish between cellular vs WiFi connection.
-  connectivity_plus: ^2.2.0
+  connectivity_plus: ^3.0.3
 
   # Simple direct Service Locator that allows to decouple the interface
   # from a concrete implementation and to access the concrete
@@ -46,15 +48,15 @@ dependencies:
 
   # Classes and helper functions that support JSON code generation
   # via the `json_serializable` package.
-  json_annotation: ^4.4.0
+  json_annotation: ^4.8.0
 
   # MobX is a library for reactively managing the state of your applications.
   # Use the power of observables, actions, and reactions to supercharge your Dart and Flutter apps.
-  mobx: ^2.0.6+1
+  mobx: ^2.1.4
 
   # Flutter integration for MobX. It provides a set of Observer widgets
   # that automatically rebuild when the tracked observables change.
-  flutter_mobx: ^2.0.4
+  flutter_mobx: ^2.0.6+5
 
   # Contains code to deal with internationalized/localized messages,
   # date and number formatting and parsing, bi-directional text,
@@ -63,41 +65,41 @@ dependencies:
 
   # Flutter plugin for reading and writing simple key-value pairs.
   # Wraps NSUserDefaults on iOS and SharedPreferences on Android.
-  shared_preferences: ^2.0.12
+  shared_preferences: ^2.0.18
 
   # Official extension image, support placeholder(loading)/ failed state, cache network, zoom/pan,
   # photo view, slide out page, editor(crop,rotate,flip), painting etc.
-  extended_image: ^6.0.1
+  extended_image: ^7.0.2
 
   # AutoRoute is a declarative routing solution, where everything
   # needed for navigation is automatically generated for you.
-  auto_route: ^4.0.1
+  auto_route: ^5.0.4
 
   # An SVG rendering and widget library for Flutter,
   # which allows painting and displaying Scalable Vector Graphics 1.1 files.
-  flutter_svg: ^1.0.3
+  flutter_svg: ^2.0.2
 
   # Easy and Fast internationalizing and localization your Flutter Apps,
   # this package simplify the internationalizing process .
-  easy_localization: ^3.0.0
+  easy_localization: ^3.0.1
 
   # Annotations for the freezed code-generator. This package does nothing without freezed too.
-  freezed_annotation: ^1.1.0
+  freezed_annotation: ^2.2.0
 
   # Create awesome and powerful modal bottom sheets. Material, Cupertino iOS 13
   # or create your own style
-  modal_bottom_sheet: ^2.0.0
+  modal_bottom_sheet: ^3.0.0-pre
 
   # RxDart is an implementation of the popular reactiveX api for asynchronous programming,
   # leveraging the native Dart Streams api.
-  rxdart: ^0.27.3
+  rxdart: ^0.27.7
 
   # Flutter plugin for launching a URL. Supports web, phone, SMS, and email schemes.
-  url_launcher: ^6.0.18
+  url_launcher: ^6.1.10
 
   # Flavor Banner is a package that make easy to configure flavors
   # and add a banner to show info about device.
-  flavorbanner: ^1.0.2
+  flavorbanner: ^2.0.1
 
 # Dependencies that are only needed in the development phase
 # of the package itself are listed under dev_dependencies.
@@ -108,21 +110,21 @@ dev_dependencies:
 
   # AutoRoute is a declartive routing solution, where everything
   # needed for navigation is automatically generated for you.
-  auto_route_generator: ^4.0.0
+  auto_route_generator: ^5.0.3
 
   # A build system for Dart code generation and modular compilation.
-  build_runner: ^2.1.7
+  build_runner: ^2.3.3
 
   # Automatically generate code for converting to and from JSON by annotating Dart classes.
-  json_serializable: ^6.1.4
+  json_serializable: ^6.6.1
 
   # Code generator for MobX that adds support for annotating your code with
   # @observable, @computed, @action and also creating Store classes.
-  mobx_codegen: ^2.0.5+2
+  mobx_codegen: ^2.1.1
 
   # Code generation for immutable classes that has a simple
   # syntax/API without compromising on the features.
-  freezed: ^1.1.1
+  freezed: ^2.3.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

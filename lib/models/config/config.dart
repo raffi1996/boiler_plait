@@ -1,7 +1,8 @@
-import 'package:flavorbanner/flavor_config.dart';
+import 'package:flavorbanner/flavorbanner.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'config.freezed.dart';
+
 part 'config.g.dart';
 
 @freezed

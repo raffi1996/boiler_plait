@@ -31,7 +31,7 @@ class RetryInterceptor extends Interceptor {
   }
 
   bool _shouldRetry(DioError err) {
-    return err.type == DioErrorType.other &&
+    return err.type == DioErrorType.unknown &&
         err.error != null &&
         err.error is SocketException &&
         !CancelToken.isCancel(err);
